@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.input-part {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+
+.input-part>textarea {
+  width: 500px;
+  font-size: 20px;
+  height: 30px;
+  border: solid 1px #000;
+  border-radius: 3px;
+}
+.input-part>input {
+  border: solid 1px #000;
+  border-radius: 3px;
+}
+.msg-box {
+  width: 100%;
+  padding: 20px 20% 20px 20%;
+  border-bottom: 1px solid #ccc;
+}
+
+.download-btn {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
